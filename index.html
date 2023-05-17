@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html LANG="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>animacion</title>
+    <style media="screen">
+      .personaje {
+        height:197px;
+        width:100px;
+        background:url("caminar.png");
+        margin:0 auto;
+        /*background-position: -209px 0;*/
+        position: absolute;
+        left: 13%;
+        up: 25px;
+        animation: correr 1s steps(7) infinite;
+        x: 350px;
+        y: 150px;
+      }
+
+      .personaje1 {
+        height:197px;
+        width:100px;
+        background:url("caminar1.png");
+        margin:0 auto;
+        /*background-position: -209px 0;*/
+        position: absolute;
+        left: 19%;
+        up: 200px;
+        animation: correr 1s steps(7) infinite;
+      }
+
+      .personaje2 {
+        height:197px;
+        width:100px;
+        background:url("caminar.png");
+        margin:0 auto;
+        /*background-position: -209px 0;*/
+        position: absolute;
+        left: 25%;
+        up: 300px;
+        animation: correr 1s steps(7) infinite;
+      }
+
+      .personaje3 {
+        height:197px;
+        width:100px;
+        background:url("caminar1.png");
+        margin:0 auto;
+        /*background-position: -209px 0;*/
+        position: absolute;
+        left: 31%;
+        up: 300px;
+        animation: correr 1s steps(7) infinite;
+      }
+
+      .personaje4 {
+        height:197px;
+        width:100px;
+        background:url("caminar.png");
+        margin:0 auto;
+        /*background-position: -209px 0;*/
+        position: absolute;
+        left: 37%;
+        up: 300px;
+        animation: correr 1s steps(7) infinite;
+      }
+
+      .personaje5 {
+        height:197px;
+        width:100px;
+        background:url("caminar1.png");
+        margin:0 auto;
+        /*background-position: -209px 0;*/
+        position: absolute;
+        left: 43%;
+        up: 300px;
+        animation: correr 1s steps(7) infinite;
+      }
+
+      .personaje6 {
+        height:197px;
+        width:100px;
+        background:url("caminar.png");
+        margin:0 auto;
+        /*background-position: -209px 0;*/
+        position: absolute;
+        left: 49%;
+        up: 300px;
+        animation: correr 1s steps(7) infinite;
+      }
+
+      .personaje7 {
+        height:197px;
+        width:100px;
+        background:url("caminar1.png");
+        margin:0 auto;
+        /*background-position: -209px 0;*/
+        position: absolute;
+        left: 55%;
+        up: 300px;
+        animation: correr 1s steps(7) infinite;
+      }
+
+      .personaje8 {
+        height:197px;
+        width:100px;
+        background:url("caminar.png");
+        margin:0 auto;
+        /*background-position: -209px 0;*/
+        position: absolute;
+        left: 61%;
+        up: 300px;
+        animation: correr 1s steps(7) infinite;
+      }
+
+      .personaje9 {
+        height:197px;
+        width:100px;
+        background:url("caminar1.png");
+        margin:0 auto;
+        /*background-position: -209px 0;*/
+        position: absolute;
+        left: 69%;
+        up: 300px;
+        animation: correr 1s steps(7) infinite;
+      }
+
+      .medalla {
+        height:200px;
+        width:170px;
+        background:url("medalla1.png");
+        margin:0 auto;
+        /*background-position: -209px 0;*/
+        position: absolute;
+        left: 83%;
+        bottom: 500px;
+        animation: medalla 1s steps(5) infinite, mueve 5s infinite;
+      }
+
+      .fondo{
+        x: 0px;
+        y: 0px;
+        height: 300px;
+        width: 1500px;
+        position: absolute;
+        background:url("linea.webp");
+      }
+
+      @keyframes correr{
+        0%{
+          background-position: 0px;
+        }
+        100%{
+          background-position: -700px;
+        }
+
+      }
+
+      @keyframes mueve{
+        0%{
+          left: 10px;
+        }
+        100%{
+          left: 2000px;
+        }
+      }
+        @keyframes medalla{
+          0%{
+            background-position: 0px;
+          }
+          100%{
+            background-position: -860px;
+          }
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="fondo"></div>
+    <div class="personaje"></div>
+    <div class="personaje1"></div>
+    <div class="personaje2"></div>
+    <div class="personaje3"></div>
+    <div class="personaje4"></div>
+    <div class="personaje5"></div>
+    <div class="personaje6"></div>
+    <div class="personaje7"></div>
+    <div class="personaje8"></div>
+    <div class="personaje9"></div>
+    <div class="medalla"></div>
+  </body>
+</html>
